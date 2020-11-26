@@ -4,7 +4,7 @@ buildscript {
     jcenter()
   }
   dependencies {
-    classpath "io.gatling.frontline:frontline-gradle-plugin:1.0.0"
+    classpath "com.github.lkishalmi.gatling:gradle-gatling-plugin:3.3.4"
 
   }
 }
@@ -18,7 +18,7 @@ apply plugin: "java"
 apply plugin: "java-library"
 apply plugin: "scala"
 apply plugin: "io.gatling.frontline.gradle"
-
+apply plugin: "com.github.lkishalmi.gatling"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
