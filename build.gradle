@@ -17,7 +17,7 @@ repositories {
 apply plugin: "java"
 apply plugin: "java-library"
 apply plugin: "scala"
-apply plugin: "io.gatling.frontline"
+apply plugin: "io.gatling.frontline.gradle"
 
 
 sourceCompatibility = 1.8
