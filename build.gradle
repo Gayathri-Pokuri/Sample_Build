@@ -4,7 +4,7 @@ buildscript {
     jcenter()
   }
   dependencies {
-    classpath "com.github.lkishalmi.gatling:gradle-gatling-plugin:3.3.4""
+    classpath "com.github.lkishalmi.gatling:gradle-gatling-plugin:3.3.4"
 
   }
 }
