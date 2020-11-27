@@ -4,7 +4,7 @@ buildscript {
     jcenter()
   }
   dependencies {
-    classpath "com.github.lkishalmi.gatling:gradle-gatling-plugin:3.3.4"
+        classpath "io.gatling.frontline:frontline-gradle-plugin:1.0.0"
 
   }
 }
@@ -18,7 +18,7 @@ apply plugin: "java"
 apply plugin: "java-library"
 apply plugin: "scala"
 apply plugin: "io.gatling.frontline.gradle"
-apply plugin: "com.github.lkishalmi.gatling"
+
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -26,15 +26,6 @@ targetCompatibility = 1.8
 dependencies {
   testCompile "io.gatling.highcharts:gatling-charts-highcharts:3.2.0"
   
-  testImplementation "org.scala-lang:scala-library:2.13.1"
-
-    // Use Scalatest for testing our library
-    testImplementation "junit:junit:4.12"
-    testImplementation "org.scalatest:scalatest_2.13:3.1.0"
-    testImplementation "org.scalatestplus:junit-4-12_2.13:3.1.0.0"
-
-    // Need scala-xml at test runtime
-    testRuntimeOnly "org.scala-lang.modules:scala-xml_2.13:1.2.0"
 }
 
 
