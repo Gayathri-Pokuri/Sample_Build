@@ -28,4 +28,11 @@ dependencies {
   
 }
 
+sourceSets {
+    gatling {
+        scala {
+            srcDir "src/gatling/scala"
+        }
+    }
+}
 
